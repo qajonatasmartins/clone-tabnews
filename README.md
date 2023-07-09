@@ -22,3 +22,38 @@ Protocolo é um acordo um combinado que segue regras entre duas partes que estã
 - TCP ()
 - IP (internet protocol)
 - UDP (User datagram protocol): 
+
+## git
+
+`git log` - listar os commits do repositório.
+`git add` - sobe alterações para a staging area.
+`git commit` - realiza novos commits.
+`git commit --amend` - subsitui o commit anterior por um novo, mas aproveita as alterações dele.
+`git diff` - calcula a diferença entre as versões/alterações dos arquivos.
+
+## Versionamento de código
+
+Isso começõu em 1972 quando a 'Bell Labs' inventou o SCCS (Source code control system) que foi o 1 sistema digital de versionamento. Seguido pelo RCS (Revision control system) em 1982, depois CVS em 1986, SVN em 2000 e em 2005 Linus Torvald criou o git para um versionamento melhor para o linux.
+
+Todos os versionamentos antes do git eram centralizados e quando se criou o git ele era um versionamento de codigo distribuido. 
+
+### Estagios do versionamento
+
+Untracked -> Não é um dos 3 estagios é uma etapa antes da primeira.
+
+#### Estagios
+
+Modified - Modificado
+Staged - Area de preparo
+Committed - Comited
+
+### Viagem no tempo (reescrever em um commit já realizado sem criar um novo)
+
+git commit --amend
+
+### Outros comandos git 
+
+git commit -m "mensagem" - atalho para fazer novos commits.
+git push - empurrar alterações locais para o origin.
+git push --force - empurrar de forma forçada alterações locais para o origin.
+git push -f - a forma comprimida do comando anterior.
