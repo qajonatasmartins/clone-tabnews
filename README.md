@@ -30,6 +30,7 @@ Protocolo é um acordo um combinado que segue regras entre duas partes que estã
 `git commit` - realiza novos commits.
 `git commit --amend` - subsitui o commit anterior por um novo, mas aproveita as alterações dele.
 `git diff` - calcula a diferença entre as versões/alterações dos arquivos.
+`git add -A` - Envia tudo para o staged (pronto para enviar)
 
 ## Versionamento de código
 
