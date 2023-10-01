@@ -72,3 +72,5 @@ O EditorConfig ajuda a manter estilos de codificação consistentes para vários
 ## [prettier](https://prettier.io/)
 
 Formatador de código que através do `npm run lint:check` que verifica é para concertar é `npm run lint:fix` executado essa formatação para todos os diretórios por causa do '.'.
+
+## Commonjs
