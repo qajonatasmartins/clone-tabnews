@@ -1,6 +1,0 @@
-root = true
-
-# [.js] - Define que para todos os arquivos .js vai ser aplicado a regra
-[*] # Define que para todos os arquivos vai ser aplicado a regra abaixo
-indent_style = space
-indent_size = 2
