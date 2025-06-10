@@ -79,7 +79,7 @@ pages/
 O Next.js fornece o componente `Link` para navegação:
 
 ```jsx
-import Link from 'next/link'
+import Link from "next/link";
 
 function Navigation() {
   return (
@@ -88,7 +88,7 @@ function Navigation() {
       <Link href="/about">Sobre</Link>
       <Link href="/posts/meu-post">Meu Post</Link>
     </nav>
-  )
+  );
 }
 ```
 
@@ -97,13 +97,13 @@ function Navigation() {
 Para acessar parâmetros dinâmicos, use o hook `useRouter`:
 
 ```jsx
-import { useRouter } from 'next/router'
+import { useRouter } from "next/router";
 
 function PostPage() {
-  const router = useRouter()
-  const { slug } = router.query
-  
-  return <h1>Post: {slug}</h1>
+  const router = useRouter();
+  const { slug } = router.query;
+
+  return <h1>Post: {slug}</h1>;
 }
 ```
 
@@ -121,7 +121,7 @@ function PostPage() {
 
 ```jsx
 // Configuração manual necessária
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
@@ -132,7 +132,7 @@ function App() {
         <Route path="/posts/:slug" element={<Post />} />
       </Routes>
     </BrowserRouter>
-  )
+  );
 }
 ```
 
@@ -141,7 +141,7 @@ function App() {
 ```
 // Apenas criar os arquivos na estrutura correta
 pages/index.js
-pages/about.js  
+pages/about.js
 pages/posts/[slug].js
 ```
 
